@@ -52,4 +52,18 @@ li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+.container {
+  height: 500px;
+  overflow: hidden !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+body, html{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+.jumbotron {
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
 }
