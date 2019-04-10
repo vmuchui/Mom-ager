@@ -1,7 +1,7 @@
-# Mom-ager
+# MOM-AGER
 This is a community based app established to provide well trained and screened nannies to busy working parents who do not have time to take care of their children.
 
-# Mom-ager
+# Mom-ager services
 #### This is a community based app established to provide well trained and screened nannies to busy working parents who do not have time to take care of their children., 8th APRIL 2019.
 ### By :
 
@@ -20,7 +20,7 @@ This is a community based app established to provide well trained and screened n
     1. Sign in with the application to start using.
     2. Set up a profile about me and a general location and my neighborhood name.
     3. Find a list of services you require. 
-    4. Submit and check your email for your Momager-account.
+    4. Submit and check your email for your Mom-ager-account.
     5. Create Posts that will be visible to everyone in my neighborhood.
     6. Change My neighborhood when I decide to move out.
     7. view other services related to the one chosen 
@@ -37,14 +37,14 @@ No bugs detected. Incase of any difficulties contact us.
 <li><em>JavaScript/jQuery</em></li>
 
 ## Support and contact details
-MOMAGER HELPLINE : [0707518860]('call')<br>
-Email us  [momagerservices@gmail.com](email)<br>
-Visit us at www.momager.com
+MOM-AGER HELPLINE : [0707518860]('call')<br>
+Email us  [mom-agerservices@gmail.com](email)<br>
+Visit us at www.mom-ager.com
 
 ### License
 *MIT License*
 
-Copyright (c) 2019, **MOMAGER COMPANY**
+Copyright (c) 2019, **MOM-AGER COMPANY**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
