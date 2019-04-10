@@ -1,12 +1,9 @@
-# MOM-AGER
-This is a community based app established to provide well trained and screened nannies to busy working parents who do not have time to take care of their children.
-
-# Mom-ager services
-#### This is a community based app established to provide well trained and screened nannies to busy working parents who do not have time to take care of their children., 8th APRIL 2019.
-### By :
+# MOM-AGER SERVIVES
+### This is a community based app established to provide well trained and screened nannies to busy working parents who do not have enough time to be with their children.<br> <em>8th APRIL 2019.</em>
+## By :
 
 * [**MAX MAINA**](https://github.com/maxie24/)
-* [**MARTHA TWESIGYA**](https://github.com/Martatwesi/)
+* [**MARTHA TWESIGYE**](https://github.com/Martatwesi/)
 * [**VICTOR MUCHUI**](https://github.com/vmuchui/)
 * [**JACQULINE WANGU**](https://github.com/JacqulineWangu/)
 * [**PRECIOUS NEEMA**](https://github.com/Neema2018/)
