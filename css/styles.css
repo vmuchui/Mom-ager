@@ -1,35 +1,22 @@
 body{
-    background-color:#735F73;
+    background-color:white;
 }
-
-
-
-.navbar {
+.navbar{
+    position:inherit;
+}
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    margin: 20px;
-    border-radius: 7px;
-    height: 60px;
-    margin-bottom: 6px;
 }
-.nvlink{
-    margin-left: 800px;
-}
-.nav-link {
-    margin: 5px;
+
+li {
     float: left;
-    font-size: 19px;
-    font-family: 'Patrick Hand',
-    cursive;
 }
-.nav-link:hover{
-    background-color: aquamarine;
-    color: black;
-}
-.nav-link a {
+
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -37,10 +24,11 @@ body{
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-.nav-link a:hover {
+li a:hover {
     background-color: #111;
 }
+
+
 .active {
     background-color: white;
     color: black;
@@ -60,10 +48,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.carousel-inner:before{
 
-
-}
 .left,
 .right {
     cursor: pointer;
@@ -92,15 +77,29 @@ body{
 .carousel-inner:hover{
      opacity: 1.0;
 }
-.blog{
-    background-color:#DCFFE5;
+
+.vid{
+    margin-top: 5px;
 }
-.blog:hover{
-    box-shadow: #111;
+#bg-img{
+      background-image: url(http://ingridkuhn.com/themes/childhood_html/img/gallery/gallery5.jpg);
+       height: 100%;
+
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+.colr2 {
+    opacity: 0.8;
+    margin-top: 15px;
+
 }
 .colr{
     opacity: 0.8;
-    background-color: #FFC4D8
+margin-top: 15px;
+height: 580px;
 }
 .colr:hover{
     box-shadow: #DCFFE5;
@@ -117,9 +116,21 @@ body{
     height: 50px;
     border-radius: 50%;
 }
-.Avatar{
-    display: none;
+.card{
+    border-radius: 20px;
+    background-color: rgb(231, 197, 86);
 }
-.vid2{
-
+.card:hover{
+width: 250px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+0 6px 20px 0 rgba(0, 0, 0, 0.19);
+text-align: center;
+}
+.card-img-top{
+    opacity: 0.7;
+    border-radius: 30%;
+}
+.card-img-top:hover{
+    width: 400px;
+    opacity:1.0;
 }

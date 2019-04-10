@@ -5,30 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="othercss/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Mom-ager</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <ul class="nvlink">
-                    <li class="nav-link"><a href="default.asp" class="active">Home</a></li>
-                    <li class="nav-link"><a href=".blog">blog</a></li>
-                    <li class="nav-link"><a href="contact.asp">Contact</a></li>
-                    <li class="nav-link"><a href="about.asp">About</a></li>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav-link">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.asp">News</a></li>
+                    <li><a href="contact.asp">Contact</a></li>
+                    <li><a href="about.asp">About</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <br><br>
     <div class="container">
-        <br><br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -74,6 +98,7 @@
                     <div class="carousel-caption">
                         <h3>A United Community Is A Peaceful Community!</h3>
                         <p>Join Us Today To Help Preserve Human Rights!</p>
+
                     </div>
                 </div>
             </div>
@@ -93,13 +118,18 @@
     <br><br>
     <div class="container">
 
-        <div class="well blog text-center">
+        <div id="blog" class="well blog text-center">
             <h2>Blog</h2>
             <p>
                 Research indicates that 1 in every 8 infants is sexually abused, 2 in every 6 neglected, 2 in
                 every
                 7 emotionally abused, 21% physically abused by
-                maids in Uganda between 2014 and 2018.
+                maids in kenya between 2014 and 2018.
+                Again, Currently the number of cases involving child abuse in terms of battering by maids is over 1200
+                cases in the media
+                between 2014 to 2018.This shows that there is a growing number of parents who cannot trust to leave
+                their children with
+                their house helps . We predict that by 2020 , this number will have increased by a quarter.
                 In the recent 5 years, two particular nanny incidents in Uganda and Nigeria went viral on the
                 internet and continue to
                 shock Africa and the world. In this section, I’ll share short videos and summaries of these
@@ -107,6 +137,7 @@
                 which have exposed
                 the ugly side of the nanny problem and the urgent need to tackle this issue that is widespread
                 across Africa.
+
             </p>
             <h5>Two particular cases detailed below are one of those that shocked the World (Events That Reveal The
                 Ugly Nature Of The
@@ -115,12 +146,12 @@
                 Africa):
             </h5>
         </div>
-        <div class="row">
+        <div class="row" id="bg-img">
             <div class="col-xs-6">
                 <div class="well colr">
                     <h3>Uganda – Jolly Tumuhiirwe, the vicious nanny</h3>
                     <p>
-                        Sometime last year (2014), Jolly Tumuhiirwe, a nanny in a Ugandan household was caught on a
+                        Sometime back (2014), Jolly Tumuhiirwe, a nanny in a Ugandan household was caught on a
                         hidden
                         camera as she
                         viciously beat, kicked and stomped on the 18-month old toddler she was hired to take care
@@ -137,9 +168,9 @@
                     <ul>
 
                         <li>
-                            <video
+                            <video class="vid"
                                 src="videos/y2mate.com - ugandan_house_help_admits_torturing_18_months_old_baby_dfZOC8aHg9s_360p.mp4"
-                                poster="Nigerian nanny " width="350" height="350" controls></video>
+                                poster="Nigerian nanny " width="100%" height="150%" controls></video>
 
                         </li>
                     </ul>
@@ -148,7 +179,7 @@
 
             </div>
             <iv class="col-xs-6">
-                <div class="well colr colr">
+                <div class="well colr2 ">
                     <h3>Nigeria – Funmilayo Adeyemi, The Kidnapper Nanny</h3>
                     <p>
                         In March 2015, Funmilayo, a newly hired nanny, kidnapped three kids, including an 11-month
@@ -157,17 +188,18 @@
                         severely traumatized as the kidnappers demanded a ransom of 13 million Naira (about $80,000)
                         from the parents.
 
-                        In the video below, the mother, a banker and co-breadwinner of the home, agonises and is
+                        The mother, a banker and co-breadwinner of the home, agonises and is
                         visibly
                         broken by the sudden loss of her three children to kidnappers, through the deception of a
                         nanny
                         she barely knew.
+                        The video below shows the Nanny confessing the Kidnapping incident.
                     </p>
                     <ul>
                         <li>
                             <video
                                 src="videos/y2mate.com - alarming_confession_of_nanny_who_kidnapped_orekoya_children_160415_YfAcRfDsBH8_360p.mp4"
-                                poster="Nigerian nanny " width="300" height="300" controls></video>
+                                poster="Nigerian nanny " width="100%" height="100%" controls></video>
                         </li>
                     </ul>
                 </div>
@@ -175,30 +207,98 @@
 
     </div>
     </div>
+
+    <div class="well">
+        <h2>But .THERE'S HOPE!! Introducing Mom-ager </h2>
+        <div class="card-deck">
+            <div class="card text-center" style="width:400px; height:420px;">
+                <img class="card-img-top"
+                    src="https://lh4.googleusercontent.com/gPpsUqQ1kfLzU16ioXLzcFkMhBHEeZwkfeCOCFvrUzKHj3w93e0pMiQzsmslIJar2tudvzamzLSlPP7xMpLB158Mk2TGSsfcZ5pus2plE4sj0F9LHU9wm86oVAkNnZlsJAsK_t5fJK0dltE"
+                    alt="nany imoji">
+                <h2 class="card-title">Get Nanny Now!</h2>
+                <div class="card-body">
+                    <p>Get a nanny to your home instantly.</p>
+                    <a href="index.html" class="btn btn-primary">Subscribe Now!</a>
+                </div>
+
+            </div>
+
+            <div class="card  text-center" style="width:400px; height:420px;">
+                <img class="card-img-top"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVr-haBTiVPFhhGdfN0ded_LjQD1XNI59HD6KRln1WYTjCDrNnkQ"
+                    alt="nany imoji">
+                <h2 class="card-title">Mama Chatroom!</h2>
+                <div class="card-body">
+                    <p>Mama-chat room is a platform where the users get commmunicate to us and other users
+                        to give feedback as well as socialise as people from the same area and also checkout
+                        advertisements.
+                    </p>
+                        <a href="index.html" class="btn btn-primary">Subscribe Now!</a>
+                    </div>
+            </div>
+
+            <div class="card  text-center" style="width:400px; height:420px;">
+                <img class="card-img-top"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq-LMDfEqe8BIUhRVVpA05GlPfeVyurm_b6hlcPYyaJTZd9XU"
+                    height="80%" alt="home center">
+                <h2 class="card-title">Get To Center Now!</h2>
+                <div class="card-body ">
+                    <p>Get your child to your nearest Day and Night care center now.Dropping and Picking
+                        of your child is on us and well taken care of.</p>
+                     <a href="index.html" class="btn btn-primary ">Subscribe Now!</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
     <br><br>
     <div class="container">
         <div class="parallax">
-            <div class="row">
+            <div class="row" id="about">
                 <div class="col-xs-6 text-center">
                     <h2>About Us</h2>
-                    Mom-ager is a community based app established to provide peace of mind for busy mothers who cannot
-                    be
-                    with their young
-                    children while at work so have to leave them with the maids at home.As a partnership, we have
-                    managed
-                    to thoroughly
-                    screen the nannies that we shall use and worked hand in hand with the kenyan police to ensure safety
-                    of the children
-                    assigned to us by their parents.
-                    Unlike other daycare services, mom-ager has both day and night services, provides transport
-                    facilities
-                    for the children whose parents will be interested
-                    in working with us so they do not have to get caught up in traffic jam dropping off and picking up
-                    their children. We
-                    also provide mobile nannies and those who work at the day-care centres.
-
+                    <p>
+                        Mom-ager is a community based app established to provide peace of mind for busy mothers who
+                        cannot
+                        be
+                        with their young
+                        children while at work so have to leave them with the maids at home.As a partnership, we
+                        have
+                        managed
+                        to thoroughly
+                        screen the nannies that we shall use and worked hand in hand with the kenyan police to
+                        ensure
+                        safety
+                        of the children
+                        assigned to us by their parents.
+                        Unlike other daycare services, mom-ager has both day and night services, provides transport
+                        facilities
+                        for the children whose parents will be interested
+                        in working with us so they do not have to get caught up in traffic jam dropping off and
+                        picking
+                        up
+                        their children. We
+                        also provide mobile nannies and those who work at the day-care centres.
+                    </p>
                 </div>
-
+                <div class="col-xs-6">
+                    <h4> Our Motto</h4>
+                    <p>“A united community is a peaceful community.”</p>
+                    <h4>Our Goal And Vision</h4>
+                    <p>
+                        To promote peace in our community by reducing on child abuse cases majorly caused by house
+                        helps
+                        by providing fully
+                        qualified personnel to take care of your <em><strong>children</strong></em> to ensure safety
+                        of
+                        our
+                        children under our care. While also working hand in hand with law enforcement.
+                        We intend to promote unity through the mother sharing groups on our App.
+                    </p>
+                </div>
 
             </div>
         </div>
