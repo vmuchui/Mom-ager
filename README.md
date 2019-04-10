@@ -1,4 +1,4 @@
-# MOM-AGER SERVIVES
+# MOM-AGER SERVICES
 ### This is a community based app established to provide well trained and screened nannies to busy working parents who do not have enough time to be with their children.<br> <em>8th APRIL 2019.</em>
 ## By :
 
