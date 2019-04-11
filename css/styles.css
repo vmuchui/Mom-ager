@@ -1,15 +1,27 @@
-body{
-    background-color:white;
+body {
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
 }
-.navbar{
-    position:inherit;
+
+.navbar {
+    position: inherit;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+.gallery {
+    height: 400px;
+    margin: 0px 20px 20px 0px;
+}
+
+#gallery {
+    height: 358px;
+    border-radius: 20px;
 }
 
 li {
@@ -33,10 +45,11 @@ li a:hover {
     background-color: white;
     color: black;
 }
+
 .parallax {
     /* The image used */
     background-image: url('https://i2.wp.com/chartcons.com/wp-content/uploads/Funny-Black-People-Names.jpeg?resize=1021%2C580&ssl=1'
-);
+        );
     padding-top: 70px;
     padding-bottom: 30px;
     /* Full height */
@@ -64,73 +77,423 @@ li a:hover {
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
+#blog{
+    background-color: rgb(198, 236, 57);
+}
 .left:hover,
 .right:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-.container{
+
+.container {
     margin-top: 50px;
 }
-.carousel-inner{
+
+.carousel-inner {
     border-radius: 15px;
 }
-.carousel-inner:hover{
-     opacity: 1.0;
+
+.carousel-inner:hover {
+    opacity: 1.0;
 }
 
-.vid{
+.vid {
     margin-top: 5px;
 }
-#bg-img{
-      background-image: url(http://ingridkuhn.com/themes/childhood_html/img/gallery/gallery5.jpg);
-       height: 100%;
 
-       /* Create the parallax scrolling effect */
-       background-attachment: fixed;
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: cover;
+#bg-img {
+    background-image: url(http://ingridkuhn.com/themes/childhood_html/img/gallery/gallery5.jpg);
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .colr2 {
     opacity: 0.8;
     margin-top: 15px;
 
 }
-.colr{
+
+.colr {
     opacity: 0.8;
-margin-top: 15px;
-height: 580px;
+    margin-top: 15px;
+    height: 580px;
 }
-.colr:hover{
+
+.colr:hover {
     box-shadow: #DCFFE5;
 }
-.well1{
+
+.well1 {
     float: right;
     display: flex;
     justify-content: flex-start;
     text-indent: 130px;
 }
+
 .avatar {
     vertical-align: middle;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-.card{
+
+.card {
     border-radius: 20px;
     background-color: rgb(231, 197, 86);
 }
-.card:hover{
-width: 250px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-0 6px 20px 0 rgba(0, 0, 0, 0.19);
-text-align: center;
+
+#p {
+    background-color: rgb(209, 87, 108);
 }
-.card-img-top{
+
+#i {
+    background-color: rgb(196, 126, 21);
+}
+
+#n {
+    background-color: rgb(221, 224, 48);
+}
+
+#k {
+    background-color: rgb(46, 161, 228);
+}
+
+.card:hover {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card-img-top {
     opacity: 0.7;
     border-radius: 30%;
 }
-.card-img-top:hover{
+
+.card-img-top:hover {
     width: 400px;
-    opacity:1.0;
+    opacity: 1.0;
+}
+
+
+
+
+
+.product-grid {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid white;
+    margin-top: 184px;
+}
+
+.product-grid::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.product-grid:hover::before {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.product-grid .product-image {
+    overflow: hidden;
+    position: relative;
+}
+
+.product-grid .product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-grid .product-image a {
+    display: block;
+}
+
+.product-display-label {
+    color: white;
+    background-color: #000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.product-grid .social {
+    width: 100%;
+    padding: 30px 0;
+    margin: 0;
+    list-style: none;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+}
+
+.product-grid .social li {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(300%);
+    transition: all 0.5s ease 0s;
+}
+
+.product-grid .social li:nth-child(2) {
+    transition-delay: 0.05s;
+}
+
+.product-grid .social li:nth-child(3) {
+    transition-delay: 0.13s;
+}
+
+.product-grid .social li:nth-child(4) {
+    transition-delay: 0.13s;
+}
+
+.product-grid .social li:nth-child(5) {
+    transition-delay: 0.05s;
+}
+
+.product-grid .social li:nth-child(6) {
+    transition-delay: 0.16s;
+}
+
+.product-grid .social li:nth-child(7) {
+    transition-delay: 0.16s;
+}
+
+.product-grid .social li:nth-child(8) {
+    transition-delay: 0.16s;
+}
+
+.product-grid:hover .social li {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product-grid .social li a {
+    color: #000;
+    background-color: #fff;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 0 2px 10px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s;
+}
+
+.product-grid .social li a:hover {
+    color: white;
+    background-color: orange;
+}
+
+.product-grid .product-content {
+    padding: 18px;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.product-grid .title {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0, 0, 10px, 0;
+}
+
+.product-grid .title a {
+    color: #000;
+}
+
+.product-grid .title a:hover {
+    color: #fa8231;
+}
+
+.product-grid .price {
+    color: #fa8231;
+}
+
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.card:hover::before {
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+
+#slogan {
+    font-family: 'Niconne',
+        cursive;
+    font-size: 32px;
+}
+
+#gal {
+    font-family: 'Cabin Sketch',
+        cursive;
+    font-size: 60px;
+}
+
+#welcome {
+    font-family: 'Cinzel Decorative',
+        cursive;
+    font-size: 72px;
+    margin-bottom: 100px;
+    color: yellowgreen;
+}
+
+@keyframes come {
+    from {
+        color: white;
+    }
+
+    to {
+        color: yellow;
+    }
+
+    #welcome {
+        animation: come 4s;
+    }
+}
+
+#mom {
+    margin-bottom: 100px;
+    font-size: 48px;
+    font-family: 'Titan One',
+        cursive;
+    padding-bottom: -30px;
+    color: yellowgreen;
+}
+
+#moto {
+    margin-bottom: 100px;
+    font-size: 48px;
+    font-family: 'Lateef',
+        cursive;
+    padding-bottom: -20px;
+    color: #fa8231;
+}
+
+#kid {
+    font-family: 'Aclonica',
+        sans-serif;
+    margin-bottom: 80px;
+    background-color: azure;
+    color: #000;
+    font-size: 22px;
+}
+#kidie {
+    font-family: 'Aclonica',
+        sans-serif;
+    margin-bottom: 60px;
+    color: #000;
+    font-size: 22px;
+}
+#about{
+    color: #DCFFE5;
+}
+#intro{
+    font-family: 'Bungee Inline',
+    cursive;
+    font-size: 50px
+}
+.para{
+   font-family: 'Belgrano',
+   serif;
+    font-size: 16px;
+}
+.ti{
+    font-family: 'Fredericka the Great',
+    cursive;
+font-size: 30px;
+text-decoration-line: underline;
+
+}
+.footer{
+    background-color: #333;
+    opacity: 0.85;
+}
+#footer-contact{
+    color: #fa8231;
+}
+#soc{
+     color: #fa8231;
+}
+.logo{
+    height:100px;
+    margin-top:15px;
+
+}
+.foot2{
+ margin: 10px 5px 0px 10px;
+color: antiquewhite;
+    background-color: rgb(110, 107, 107)
+}
+.navbar-brand{
+    margin-bottom: 20px;
+}
+.navbar .collapse .nav-link li:hover {
+    background-color: wheat;
 }
