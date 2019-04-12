@@ -61,12 +61,9 @@ li a:hover {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-.container {
-  height: 500px;
-  overflow: hidden !important;
-  -webkit-overflow-scrolling: touch;
+    background-size: cover;   
 }
+
 
 body, html{
   height: 100%;
@@ -232,21 +229,9 @@ body, html{
     color: yellowgreen;
 }
 
-@keyframes come {
-    from {
-        color: white;
-    }
 
-    to {
-        color: yellow;
-    }
 
-    #welcome {
-        animation: come 4s;
-    }
-}
-
-#mom {
+#mum {
     margin-bottom: 100px;
     font-size: 48px;
     font-family: 'Titan One',
@@ -324,4 +309,10 @@ color: antiquewhite;
 }
 .navbar .collapse .nav-link li:hover {
     background-color: wheat;
+}
+.btn-primary{
+    visibility: hidden;
+}
+.btn-primary:hover{
+    visibility: visible;
 }
